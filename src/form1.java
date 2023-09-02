@@ -11,9 +11,9 @@ public class form1 {
     private JRadioButton rectangle;
     private JLabel res;
     private JButton calculate;
-    private JPanel ResCalc;
-
+    JPanel ResCalc;
     double h,answer;
+
 
     private void ch1() {
 
@@ -53,15 +53,5 @@ public class form1 {
 
             }
         });
-    }
-
-    public static void main (String[] args){
-        JFrame f = new JFrame("Resolution Calculator");
-        f.setContentPane(new form1().ResCalc);
-        f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
-        f.setSize(800, 600);
-        f.setLocationRelativeTo(null);
-        f.pack();
-        f.setVisible(true);
     }
 }
