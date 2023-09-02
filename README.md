@@ -3,7 +3,7 @@
 The TabletResCalculator is a simple tool designed to help you convert the area of your tablet's screen to either a 4:3 or 16:9 aspect ratio. Follow the steps below to use the calculator:
 
 
-## Usage Instructions
+# Usage Instructions
 ### Prerequisites
 
 Before using **TabletResCalculator**, ensure that you have the **Java Runtime Environment (JRE)** installed on your system:
